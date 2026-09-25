@@ -1,0 +1,66 @@
+3191:Applying /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/target/linux/generic/pending-5.15/920-mangle_bootargs.patch using plaintext: 
+3468:Applying /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/target/linux/generic/hack-5.15/920-device_tree_cmdline.patch using plaintext: 
+3845:GATE N OK: 02_network has the ruijie interface + MAC rules and parses cleanly
+10542:curl: (22) The requested URL returned error: 502
+10601:curl: (22) The requested URL returned error: 400
+17635:autoreconf: error: /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/staging_dir/host/bin/aclocal failed with exit status: 2
+18955:make[4]: *** [GNUmakefile:108: abort-due-to-no-makefile] Error 1
+18957:make[3]: [Makefile:67: /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/build_dir/host/libtool-2.4.7/.preparedd398ead6e0e2a7f0582bbd2b03964dde_6664517399ebbbc92a37c5bb081b5c53] Error 2 (ignored)
+22744:curl: (22) The requested URL returned error: 404
+22758:curl: (22) The requested URL returned error: 404
+22806:curl: (22) The requested URL returned error: 404
+22998:curl: (22) The requested URL returned error: 404
+23211:curl: (22) The requested URL returned error: 404
+24982:make[5]: [Makefile:395: docs] Error 1 (ignored)
+25074:make[4]: [Makefile:398: install-doc-libs] Error 1 (ignored)
+54701:Applying ../patches-12.x/920-specs_nonfatal_getenv.patch using plaintext: 
+58921:make[3]: [Makefile:79: /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/stamp/.gdb_installed] Error 1 (ignored)
+64230:Applying /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/target/linux/generic/pending-5.15/920-mangle_bootargs.patch using plaintext: 
+64507:Applying /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/target/linux/generic/hack-5.15/920-device_tree_cmdline.patch using plaintext: 
+81903:cc1: error: no include path in which to search for stdc-predef.h
+84017:make[6]: [Makefile:1785: aarch64-openwrt-linux-musl/bits/largefile-config.h] Error 1 (ignored)
+84018:make[6]: [Makefile:1786: aarch64-openwrt-linux-musl/bits/largefile-config.h] Error 1 (ignored)
+90886:curl: (22) The requested URL returned error: 404
+90945:curl: (22) The requested URL returned error: 404
+91045:curl: (22) The requested URL returned error: 404
+91670:cat: write error: Broken pipe
+91671:cat: write error: Broken pipe
+97789:  100 |         fprintf(stderr,"internal error: len %d %% %d\n",req.length,
+102858:cat: write error: Broken pipe
+111874:[9/9] Linking C executable odhcpd
+115584:Applying ./patches/ath11k/0091-wifi-ath11k-Split-coldboot-calibration-hw_param.patch using plaintext: 
+115591:Applying ./patches/ath11k/0092-wifi-ath11k-Add-coldboot-calibration-support-for-QCN.patch using plaintext: 
+115657:Applying ./patches/ath11k/902-ath11k-Disable-coldboot-calibration-for-IPQ8074.patch using plaintext: 
+117024:== [9/9] ath11k: disable coldboot calibration for IPQ5018/QCN6122 (package patch) + rebuild ==
+117028:== ath11k coldboot-calibration fix: build_dir/target-aarch64_cortex-a53_musl/linux-ipq50xx_aarch64/backports-6.1.24/drivers/net/wireless/ath/ath11k/core.c ==
+117039:patched 4 coldboot field(s) in IPQ5018, QCN6122
+117040:  IPQ5018: .coldboot_cal_mm true -> false
+117041:  IPQ5018: .coldboot_cal_ftm true -> false
+117042:  QCN6122: .coldboot_cal_mm true -> false
+117043:  QCN6122: .coldboot_cal_ftm true -> false
+117045:OK: MA3063DBG_COLDBOOT written
+117046:GATE 0 OK: marker present in the extracted core.c
+117047:package patch written: /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/package/kernel/mac80211/patches/ath11k/906-wifi-ath11k-disable-coldboot-calibration-ipq5018-qcn6122.patch (50 lines)
+117050:Subject: [PATCH] wifi: ath11k: disable coldboot calibration for ipq5018/qcn6122
+117060:GATE P OK: patch applies to the pristine source and round-trips exactly
+117063:OK   hw.h: replaced ATH11K_CE_OFFSET define with the tag macros
+117066:OK   ahb.c: removed 6 x ATH11K_CE_OFFSET(ab)
+117067:OK   hal.c: removed 6 x ATH11K_CE_OFFSET(ab)
+117068:     (total ATH11K_CE_OFFSET uses removed outside ahb.c: 6)
+117074:  + hw.h: ATH11K_CE_OFFSET -> ATH11K_REG_TYPE_* macros
+117077:  + ahb.c: removed 6 x ATH11K_CE_OFFSET(ab)
+117078:  + hal.c: removed 6 x ATH11K_CE_OFFSET(ab)
+117082:hw.c ATH11K_REG_TYPE_CE count: 7 (expect 7: 4 regs + 3 ie addrs)
+117083:GATE C OK: CE remap fix applied (hw.h macros, 7 hw.c tags, no ATH11K_CE_OFFSET left, ahb.c dispatch)
+117084:package patch written: /home/runner/work/ma3063-openwrt/ma3063-openwrt/openwrt/package/kernel/mac80211/patches/ath11k/907-wifi-ath11k-fix-remapped-ce-accessing.patch (165 lines)
+117085:GATE P2 OK: 907 applies cleanly and round-trips for all four files
+117086:GATE M OK: macros are constants -- normal/ce/dispatch = 4096 536870912 2 (expected 4096 536870912 2)
+118860:Applying ./patches/ath11k/0091-wifi-ath11k-Split-coldboot-calibration-hw_param.patch using plaintext: 
+118867:Applying ./patches/ath11k/0092-wifi-ath11k-Add-coldboot-calibration-support-for-QCN.patch using plaintext: 
+118933:Applying ./patches/ath11k/902-ath11k-Disable-coldboot-calibration-for-IPQ8074.patch using plaintext: 
+118946:Applying ./patches/ath11k/906-wifi-ath11k-disable-coldboot-calibration-ipq5018-qcn6122.patch using plaintext: 
+118949:Applying ./patches/ath11k/907-wifi-ath11k-fix-remapped-ce-accessing.patch using plaintext: 
+120244:GATE 1 OK: MA3063DBG_COLDBOOT present in ath11k/core.c (patch survived the rebuild)
+120245:GATE 2 OK: MA3063DBG_COLDBOOT present in the freshly built ath11k.ko
+120247:GATE 2b OK: ath11k.ko changed by the fix
+120249:GATE 3 OK: firmware image rebuilt with the fixed ath11k (6efc3f90760d85e2024178b99c59e888b216165106dd8fe54f7a86775c9468c6 -> fcaa91034f80746e41336a8e3eff505487ee9bcaba4d9c378bcddfcc38375fce)
